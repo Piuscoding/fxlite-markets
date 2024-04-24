@@ -40,6 +40,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: "$0.00"
     },
+    level:{
+        type: String,
+        default: "basic"
+    },
     bonus:{
         type: String,
         default: "$0.00"
